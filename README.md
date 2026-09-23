@@ -2,7 +2,7 @@
 
 Applied AI Engineer building LLM agents, retrieval systems, and the evaluation harnesses that say whether they actually work.
 
-- Built an **AI agent governance platform** — [Grace](https://github.com/GaganGanesh98/Grace) — shipping an **MCP tool-calling server**, WebSocket transport, signed execution receipts and a Merkle audit chain on FastAPI + Next.js + Postgres + Redis. 939 tests behind a CI gate that fails under 80% coverage.
+- Built an **AI agent governance platform** — [Grace](https://github.com/GaganGanesh98/Grace) — shipping an **MCP tool-calling server**, WebSocket transport, signed execution receipts and a Merkle audit chain on FastAPI + Next.js + Postgres + Redis. 939 test functions across 165 files, with CodeQL, Trivy, gitleaks and TruffleHog wired into CI.
 - Deep on **RAG and retrieval** — self-corrective **LangGraph** agents with article-level citations ([german-compliance-agent](https://github.com/GaganGanesh98/german-compliance-agent)), and hybrid BM25+vector, **GraphRAG/Neo4j** and Atlas vector search compared on one corpus ([Trinity](https://github.com/GaganGanesh98/Trinity)).
 - **Evaluation-first**: I build the eval before the claim, pre-register hypotheses, and publish negative results. Three of my repos report numbers that did *not* go my way.
 - Backend-first: **Python, FastAPI, SQLAlchemy** — plus Docker, Terraform, GitHub Actions, GCP Cloud Run.
